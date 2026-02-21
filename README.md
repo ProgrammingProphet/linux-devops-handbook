@@ -4,7 +4,7 @@ A comprehensive, production-ready Linux guide for DevOps Engineers. This static 
 
 🔗 **Live Demo:** [https://programmingprophet.github.io/linux-devops-handbook](https://programmingprophet.github.io/linux-devops-handbook)
 
-![DevOps Linux Handbook Preview](image.png)
+<img width="1906" height="998" alt="image" src="https://github.com/user-attachments/assets/d9e232cd-6432-49d8-87ae-5d4c79158941" />
 
 ## 📋 Table of Contents
 - [Overview](#overview)
