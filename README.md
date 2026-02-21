@@ -6,7 +6,7 @@ A comprehensive, production-ready Linux guide for DevOps Engineers. This static 
 
 <img width="1906" height="998" alt="image" src="https://github.com/user-attachments/assets/d9e232cd-6432-49d8-87ae-5d4c79158941" />
 
-## 📋 Table of Contents
+<!--## 📋 Table of Contents
 - [Overview](#overview)
 - [Features](#features)
 - [Content Structure](#content-structure)
@@ -14,7 +14,7 @@ A comprehensive, production-ready Linux guide for DevOps Engineers. This static 
 - [Local Development](#local-development)
 - [Deployment](#deployment)
 - [Contributing](#contributing)
-- [License](#license)
+- [License](#license)-->
 
 ## 🎯 Overview
 
@@ -122,7 +122,6 @@ Basic, intermediate, advanced, and scenario-based questions
    ├── styles.css          # All styles
    ├── script.js           # JavaScript functionality
    ├── README.md           # Documentation
-   └── image.png           # Preview image
    ```
 
 3. **Run locally**
