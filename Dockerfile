@@ -1,16 +1,23 @@
+# Stage 1: Build (optional for future apps)
+FROM node:18-alpine AS builder
+
+WORKDIR /app
+COPY . .
+
+# (Optional) If you had build tools like React/Vite
+# RUN npm install && npm run build
+
+# Stage 2: Production (NGINX)
 FROM nginx:alpine
 
-# Remove default nginx static files
 RUN rm -rf /usr/share/nginx/html/*
 
-# Copy website files
-COPY . /usr/share/nginx/html
+# Copy only required files from builder
+COPY --from=builder /app /usr/share/nginx/html
 
-# Copy custom nginx config
+# Copy nginx config
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
-# Expose port
 EXPOSE 80
 
-# Start nginx
 CMD ["nginx", "-g", "daemon off;"]
